@@ -43,4 +43,12 @@ public class OperationTest {
         assertEquals(res, a+b);
     }
     
+    
+     @Test
+    public void testSomeMethod3() {
+       int a =4;
+       int b=3;
+       int res = Operation.add(a, b);
+        assertEquals(res, a+b);
+    }
 }
